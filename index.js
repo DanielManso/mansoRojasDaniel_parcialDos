@@ -13,5 +13,8 @@ app.set('view engine', 'handlebars');
 app.get('/', function(request, response){
     response.render('paginaA');
 });
+app.get('/!!', function(request, response){
+    response.render('paginaA');
+});
 
 app.listen(5500);
